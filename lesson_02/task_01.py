@@ -21,5 +21,5 @@ for item in var_list:
         print("Номер списка", count, "- сет: ", type(item))
     elif tuple == type(item):
         print("Номер списка", count, "- тапл: ", type(item))
-
     count += 1
+    

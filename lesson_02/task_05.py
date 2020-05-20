@@ -20,4 +20,3 @@ while True:
         print(my_list)
     else:
         print('Вы вели не число')
-
