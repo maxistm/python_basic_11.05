@@ -52,13 +52,13 @@ class WorkCar(Car):
 
 
 class PoliceCar(Car):
-    def __init__(self, *args, **kworgs):
-        super().__init__(is_police=True, *args, **kworgs)
+    def __init__(self, name, color):
+        super().__init__(name, color, is_police=True)
 
 
 class SportCar(Car):
-    def __init__(self, *args, **kworgs):
-        super().__init__(is_police=False, *args, **kworgs)
+    def __init__(self, name, color):
+        super().__init__(name, color, is_police=False)
 
 
 cars = {}
