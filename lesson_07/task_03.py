@@ -47,9 +47,11 @@ class Kletka():
 
     
 
-k1 = Kletka(27)
+k1 = Kletka(26)
 k3 = Kletka(3)
-
 print( (k1-k3).n )
+print( (k1+k3).n )
+print( (k1*k3).n )
+print( (k1/k3).n )
 
 print (k1.make_order(5))
